@@ -188,25 +188,21 @@
         </p>
       </div>
 
-      <form class="contact-form" action="https://formspree.io/f/mojzgwzv" method="POST">
-        <label>
-          Name
-          <input type="text" name="name" placeholder="Your name" required />
-        </label>
-
-        <label>
-          Email
-          <input type="email" name="email" placeholder="you@company.com" required />
-        </label>
-
-        <label>
-          Message
-          <textarea name="message" placeholder="Tell us what you need help with..." rows="5"></textarea>
-        </label>
-
-        <button type="submit" class="button primary">Send Request</button>
-        <p class="form-note">Replace YOUR_FORM_ID with your free Formspree form ID, or swap this for your email link.</p>
-      </form>
+     <form
+  action="https://formspree.io/f/mojzgwzv"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
     </section>
   </main>
 
